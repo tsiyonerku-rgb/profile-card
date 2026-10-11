@@ -1,16 +1,27 @@
+/* Colors:
+   Card background: lightgray
+   Name (h1): blueviolet
+   Title text: #180934
+   Bio text: #333
+   Buttons: black, hover text yellowgreen
+*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding:0;
     font-family:Helvetica,'sans-serif';
 }
-
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 .profile-card {
     background-color: lightgray;
     border-radius: 16px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     padding: 24px;
-    margin: 20px auto;
     max-width: 320px;
     min-height: 50vh;
     text-align: center;
